@@ -1,10 +1,13 @@
 import Navbar from "./component/Navbar"
 import HeroSection from "./component/HeroSection";
+import FeaturedBlog from "./component/FeaturedBlog";
 
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Navbar />
+      <HeroSection />
+      <FeaturedBlog />
     </div>
   );
 }
